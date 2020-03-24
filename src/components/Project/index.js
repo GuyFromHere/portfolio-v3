@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import CardLinks from '../CardLinks';
 
-class Card extends Component {
+class Project extends Component {
 	constructor() {
         super() 
         this.state = {
@@ -28,4 +28,4 @@ class Card extends Component {
 	
 }
 
-export default Card;
+export default Project;

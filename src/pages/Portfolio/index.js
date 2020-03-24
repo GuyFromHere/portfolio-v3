@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Card from "../../components/Card";
+import Project from "../../components/Project";
 
 class Portfolio extends Component {
 	projects = [
@@ -83,8 +83,7 @@ class Portfolio extends Component {
 	getPortfolio = () => {
 		const projectCards = this.projects.map(item => {
 			return (
-				<Card
-					//showLinks={this.showLinks}
+				<Project
 					id={item.id}
 					img={item.img}
 					title={item.title}
