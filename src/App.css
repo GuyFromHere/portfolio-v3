@@ -66,6 +66,10 @@ html {
 	height: 50%;
 }
 
+.github a, .linkedin a, .resume a {
+  color: blue;
+}
+
 /*                */
 /* .portfolioCard */
 /*                */
