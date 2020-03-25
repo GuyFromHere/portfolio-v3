@@ -4,7 +4,6 @@ import "./style.css";
 
 function NavBar() {
 	return (
-		<div className="nav">
 			<div className="col-3 menu">
 				<ul>
 					<Link
@@ -35,7 +34,6 @@ function NavBar() {
 					</Link>
 				</ul>
 			</div>
-		</div>
 	);
 }
 

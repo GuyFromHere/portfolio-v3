@@ -18,13 +18,6 @@ html {
 	padding-bottom: 40px; /* height of your footer */
 }
 
-
-.nav::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
 [class*="col-"] {
 	float: left;
 	padding: 15px;
@@ -83,11 +76,6 @@ html {
 	width: 40%;	
 }
 
-a {
-	text-decoration: none;
-	color: white;
-}
-
 .portfolioCard {
 	position: absolute;
 	top: 70%;
@@ -100,7 +88,11 @@ a {
 	text-align: center;
 	color: #ffffff;
 	padding: 10px 0;
-	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: white;
 }
 
 .cardImg {
@@ -109,9 +101,6 @@ a {
 	width: 300px;
 }
 
-.links {
-	font-size: 12pt;
-} 
 
 @media only screen and (max-width: 455px) {
 	[class*="col-"],

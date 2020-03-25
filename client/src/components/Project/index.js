@@ -18,7 +18,7 @@ class Project extends Component {
 					{ this.state.showLinks ? <CardLinks 
 												id={this.props.id}  
 												url={this.props.url}
-												repor={this.props.repo}
+												repo={this.props.repo}
 											/> : null }
 
 				</div>
