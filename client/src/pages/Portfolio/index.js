@@ -77,6 +77,14 @@ class Portfolio extends Component {
 			img: "burger.png",
 			header: "Burger",
 			repo: "https://github.com/GuyFromHere/burger"
+		},
+		{
+			id: 10,
+			url: "https://arcane-everglades-43040.herokuapp.com/",
+			title: "Google books api searcher with Mongo backend",
+			img: "books.png",
+			header: "Book-Search",
+			repo: "https://github.com/GuyFromHere/book-search"
 		}
 	];
 
