@@ -8,7 +8,7 @@ class Portfolio extends Component {
 			url: "http://chow-babe.herokuapp.com/",
 			title:
 				"An advanced recipe search and creation tool. Uses the edamam API to calculate nutrition values.",
-			img: "ChowBabe.png",
+			img: "chowbabe.png",
 			header: "ChowBabe",
 			repo: "https://github.com/adamwheeler81/project1/"
 		},
