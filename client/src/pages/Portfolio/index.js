@@ -10,7 +10,7 @@ class Portfolio extends Component {
 				"An advanced recipe search and creation tool. Uses the edamam API to calculate nutrition values.",
 			img: "chowbabe.png",
 			header: "ChowBabe",
-			repo: "https://github.com/adamwheeler81/project1/"
+			repo: "https://github.com/trafaelosborn/ChowBabe"
 		},
 		{
 			id: 2,
