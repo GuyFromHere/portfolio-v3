@@ -5,6 +5,15 @@ class Portfolio extends Component {
 	projects = [
 		{
 			id: 1,
+			url: "http://chow-babe.herokuapp.com/",
+			title:
+				"An advanced recipe search and creation tool. Uses the edamam API to calculate nutrition values.",
+			img: "ChowBabe.png",
+			header: "ChowBabe",
+			repo: "https://github.com/adamwheeler81/project1/"
+		},
+		{
+			id: 2,
 			url: "https://adamwheeler81.github.io/project1/",
 			title:
 				"Project one for Bootcamp. A gluten-free recipe searcher using th Spoonacular API.",
@@ -13,7 +22,7 @@ class Portfolio extends Component {
 			repo: "https://github.com/adamwheeler81/project1/"
 		},
 		{
-			id: 2,
+			id: 3,
 			url: "https://unit15project2.herokuapp.com/",
 			title:
 				"Project two for Bootcamp. A full featured new app using MySql, Node, Passport, Handlebars, and the NewsApi API.",
@@ -22,7 +31,7 @@ class Portfolio extends Component {
 			repo: "https://github.com/adamwheeler81/project2/"
 		},
 		{
-			id: 3,
+			id: 4,
 			url: "https://guyfromhere.github.io/weather-dash",
 			title:
 				"Weather dashboard. Uses AJAX and the OpenWeather API to get current weather information by city name.",
@@ -31,7 +40,7 @@ class Portfolio extends Component {
 			repo: "https://github.com/GuyFromHere/weather-dash/"
 		},
 		{
-			id: 4,
+			id: 5,
 			url: "https://guyfromhere.github.io/day-planner/",
 			title: "Day planner app.",
 			img: "planner.png",
@@ -39,7 +48,7 @@ class Portfolio extends Component {
 			repo: "https://github.com/GuyFromHere/day-planner/"
 		},
 		{
-			id: 5,
+			id: 6,
 			url: "https://guyfromhere.github.io/",
 			title: "Minesweeper game built in vanilla javascript and HTML.",
 			img: "minesweeper.png",
@@ -47,7 +56,7 @@ class Portfolio extends Component {
 			repo: "https://github.com/GuyFromHere/minesweeper/"
 		},
 		{
-			id: 6,
+			id: 7,
 			url: "https://guyfromhere.github.io/fart-button/",
 			title: "A simple app I built with my son as a learning exercise.",
 			img: "fart.png",
@@ -55,7 +64,7 @@ class Portfolio extends Component {
 			repo: "https://github.com/GuyFromHere/fart-button/"
 		},
 		{
-			id: 7,
+			id: 8,
 			url: "https://guyfromhere.github.io/ZedSaid/",
 			title: "An app to track my daughter's ridiculous insults.",
 			img: "zed.png",
@@ -63,7 +72,7 @@ class Portfolio extends Component {
 			repo: "https://github.com/GuyFromHere/zedsaid/"
 		},
 		{
-			id: 8,
+			id: 9,
 			url: "https://still-coast-92855.herokuapp.com/",
 			title: "A simple note taking app.",
 			img: "notes.png",
@@ -71,7 +80,7 @@ class Portfolio extends Component {
 			repo: "https://github.com/GuyFromHere/Notes"
 		},
 		{
-			id: 9,
+			id: 10,
 			url: "https://agile-brushlands-67640.herokuapp.com/",
 			title: "A small app demonstrating MVC principles.",
 			img: "burger.png",
@@ -79,7 +88,7 @@ class Portfolio extends Component {
 			repo: "https://github.com/GuyFromHere/burger"
 		},
 		{
-			id: 10,
+			id: 11,
 			url: "https://arcane-everglades-43040.herokuapp.com/",
 			title: "Google books api searcher with Mongo backend",
 			img: "books.png",
