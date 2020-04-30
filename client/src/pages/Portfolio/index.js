@@ -10,7 +10,16 @@ class Portfolio extends Component {
 				"An advanced recipe search and creation tool. Uses the edamam API to calculate nutrition values.",
 			img: "chowbabe.png",
 			header: "ChowBabe",
-			repo: "https://github.com/trafaelosborn/ChowBabe"
+			repo: "https://github.com/trafaelosborn/ChowBabe",
+			technologies: [
+				"React",
+				"MaterialUI",
+				"Mongo",
+				"Edamam API",
+				"OCRWebService",
+				"AWS S3",
+				"react-webcam",
+			],
 		},
 		{
 			id: 2,
@@ -19,7 +28,15 @@ class Portfolio extends Component {
 				"Project one for Bootcamp. A gluten-free recipe searcher using th Spoonacular API.",
 			img: "gluten.png",
 			header: "Gluten-Tootin",
-			repo: "https://github.com/adamwheeler81/project1/"
+			repo: "https://github.com/adamwheeler81/project1/",
+			technologies: [
+				"HTML",
+				"Javascript",
+				"jQuery",
+				"Spoonacular API",
+				"Zomato API",
+				"Foundation CSS",
+			],
 		},
 		{
 			id: 3,
@@ -28,7 +45,8 @@ class Portfolio extends Component {
 				"Project two for Bootcamp. A full featured new app using MySql, Node, Passport, Handlebars, and the NewsApi API.",
 			img: "tickr.png",
 			header: "Tickr",
-			repo: "https://github.com/adamwheeler81/project2/"
+			repo: "https://github.com/adamwheeler81/project2/",
+			technologies: ["MySQL", "NewsAPI", "Sequelize", "Handlebars", "Materialize CSS"],
 		},
 		{
 			id: 4,
@@ -37,7 +55,8 @@ class Portfolio extends Component {
 				"Weather dashboard. Uses AJAX and the OpenWeather API to get current weather information by city name.",
 			img: "weather.png",
 			header: "Weather Dashboard",
-			repo: "https://github.com/GuyFromHere/weather-dash/"
+			repo: "https://github.com/GuyFromHere/weather-dash/",
+			technologies: ["HTML", "Javascript", "CSS", "OpenWeatherAPI", "jQuery", "MomentJS"],
 		},
 		{
 			id: 5,
@@ -45,7 +64,8 @@ class Portfolio extends Component {
 			title: "Day planner app.",
 			img: "planner.png",
 			header: "Day Planner",
-			repo: "https://github.com/GuyFromHere/day-planner/"
+			repo: "https://github.com/GuyFromHere/day-planner/",
+			technologies: ["HTML", "Javascript", "CSS", "MomentJS", "localStorage"],
 		},
 		{
 			id: 6,
@@ -53,7 +73,8 @@ class Portfolio extends Component {
 			title: "Minesweeper game built in vanilla javascript and HTML.",
 			img: "minesweeper.png",
 			header: "Minesweeper",
-			repo: "https://github.com/GuyFromHere/minesweeper/"
+			repo: "https://github.com/GuyFromHere/minesweeper/",
+			technologies: ["HTML", "Javascript", "jQuery"],
 		},
 		{
 			id: 7,
@@ -61,7 +82,8 @@ class Portfolio extends Component {
 			title: "A simple app I built with my son as a learning exercise.",
 			img: "fart.png",
 			header: "Fart Button",
-			repo: "https://github.com/GuyFromHere/fart-button/"
+			repo: "https://github.com/GuyFromHere/fart-button/",
+			technologies: ["HTML", "jQuery", "Fart Sounds"],
 		},
 		{
 			id: 8,
@@ -69,7 +91,8 @@ class Portfolio extends Component {
 			title: "An app to track my daughter's ridiculous insults.",
 			img: "zed.png",
 			header: "Zed Said",
-			repo: "https://github.com/GuyFromHere/zedsaid/"
+			repo: "https://github.com/GuyFromHere/zedsaid/",
+			technologies: ["HTML", "Javascript"],
 		},
 		{
 			id: 9,
@@ -77,7 +100,8 @@ class Portfolio extends Component {
 			title: "A simple note taking app.",
 			img: "notes.png",
 			header: "Notes",
-			repo: "https://github.com/GuyFromHere/Notes"
+			repo: "https://github.com/GuyFromHere/Notes",
+			technologies: ["Node", "Express", "jQuery"],
 		},
 		{
 			id: 10,
@@ -85,7 +109,8 @@ class Portfolio extends Component {
 			title: "A small app demonstrating MVC principles.",
 			img: "burger.png",
 			header: "Burger",
-			repo: "https://github.com/GuyFromHere/burger"
+			repo: "https://github.com/GuyFromHere/burger",
+			technologies: ["Node", "Express", "MySQL", "Handlebars"],
 		},
 		{
 			id: 11,
@@ -93,12 +118,13 @@ class Portfolio extends Component {
 			title: "Google books api searcher with Mongo backend",
 			img: "books.png",
 			header: "Book-Search",
-			repo: "https://github.com/GuyFromHere/book-search"
-		}
+			repo: "https://github.com/GuyFromHere/book-search",
+			technologies: ["React", "Google Books API", "CSS", "Mongo"],
+		},
 	];
 
 	getPortfolio = () => {
-		const projectCards = this.projects.map(item => {
+		const projectCards = this.projects.map((item) => {
 			return (
 				<Project
 					id={item.id}
@@ -107,6 +133,7 @@ class Portfolio extends Component {
 					header={item.header}
 					url={item.url}
 					repo={item.repo}
+					technologies={item.technologies}
 				/>
 			);
 		});
