@@ -5,6 +5,24 @@ class Portfolio extends Component {
 	projects = [
 		{
 			id: 1,
+			url: "https://love-letters-gfh.herokuapp.com/",
+			title:
+				"Share images or text notes anywhere in the world.",
+			img: "loveletters.png",
+			header: "Love Letters",
+			repo: "https://github.com/GuyFromHere/love-letters",
+			technologies: [
+				"React",
+				"Express"
+				"Mongo",
+				"Node",
+				"Googe Maps API",
+				"AWS S3",
+				"react-webcam",
+			],
+		},
+		{
+			id: 2,
 			url: "http://chow-babe.herokuapp.com/",
 			title:
 				"An advanced recipe search and creation tool. Uses the edamam API to calculate nutrition values.",
@@ -22,7 +40,7 @@ class Portfolio extends Component {
 			],
 		},
 		{
-			id: 2,
+			id: 3,
 			url: "https://adamwheeler81.github.io/project1/",
 			title:
 				"Project one for Bootcamp. A gluten-free recipe searcher using th Spoonacular API.",
@@ -39,7 +57,7 @@ class Portfolio extends Component {
 			],
 		},
 		{
-			id: 3,
+			id: 4,
 			url: "https://unit15project2.herokuapp.com/",
 			title:
 				"Project two for Bootcamp. A full featured new app using MySql, Node, Passport, Handlebars, and the NewsApi API.",
@@ -49,7 +67,7 @@ class Portfolio extends Component {
 			technologies: ["MySQL", "NewsAPI", "Sequelize", "Handlebars", "Materialize CSS"],
 		},
 		{
-			id: 4,
+			id: 5,
 			url: "https://guyfromhere.github.io/weather-dash",
 			title:
 				"Weather dashboard. Uses AJAX and the OpenWeather API to get current weather information by city name.",
@@ -59,7 +77,7 @@ class Portfolio extends Component {
 			technologies: ["HTML", "Javascript", "CSS", "OpenWeatherAPI", "jQuery", "MomentJS"],
 		},
 		{
-			id: 5,
+			id: 6,
 			url: "https://guyfromhere.github.io/day-planner/",
 			title: "Day planner app.",
 			img: "planner.png",
@@ -68,7 +86,7 @@ class Portfolio extends Component {
 			technologies: ["HTML", "Javascript", "CSS", "MomentJS", "localStorage"],
 		},
 		{
-			id: 6,
+			id: 7,
 			url: "https://guyfromhere.github.io/",
 			title: "Minesweeper game built in vanilla javascript and HTML.",
 			img: "minesweeper.png",
@@ -77,7 +95,7 @@ class Portfolio extends Component {
 			technologies: ["HTML", "Javascript", "jQuery"],
 		},
 		{
-			id: 7,
+			id: 8,
 			url: "https://guyfromhere.github.io/fart-button/",
 			title: "A simple app I built with my son as a learning exercise.",
 			img: "fart.png",
@@ -86,7 +104,7 @@ class Portfolio extends Component {
 			technologies: ["HTML", "jQuery", "Fart Sounds"],
 		},
 		{
-			id: 8,
+			id: 9,
 			url: "https://guyfromhere.github.io/ZedSaid/",
 			title: "An app to track my daughter's ridiculous insults.",
 			img: "zed.png",
@@ -95,7 +113,7 @@ class Portfolio extends Component {
 			technologies: ["HTML", "Javascript"],
 		},
 		{
-			id: 9,
+			id: 10,
 			url: "https://still-coast-92855.herokuapp.com/",
 			title: "A simple note taking app.",
 			img: "notes.png",
@@ -104,7 +122,7 @@ class Portfolio extends Component {
 			technologies: ["Node", "Express", "jQuery"],
 		},
 		{
-			id: 10,
+			id: 11,
 			url: "https://agile-brushlands-67640.herokuapp.com/",
 			title: "A small app demonstrating MVC principles.",
 			img: "burger.png",
@@ -113,7 +131,7 @@ class Portfolio extends Component {
 			technologies: ["Node", "Express", "MySQL", "Handlebars"],
 		},
 		{
-			id: 11,
+			id: 12,
 			url: "https://arcane-everglades-43040.herokuapp.com/",
 			title: "Google books api searcher with Mongo backend",
 			img: "books.png",
