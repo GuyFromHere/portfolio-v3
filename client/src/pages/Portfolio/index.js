@@ -13,7 +13,7 @@ class Portfolio extends Component {
 			repo: "https://github.com/GuyFromHere/love-letters",
 			technologies: [
 				"React",
-				"Express"
+				"Express",
 				"Mongo",
 				"Node",
 				"Googe Maps API",
