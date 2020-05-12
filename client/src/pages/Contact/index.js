@@ -3,9 +3,9 @@ import React, { Component } from "react";
 class Contact extends Component {
 	email = "dandismuke@gmail.com";
 	github = "https://github.com/GuyFromHere";
-	linkedin = "https://www.linkedin.com/in/dan-dismuke-526a646b/";
+	linkedin = "https://www.linkedin.com/in/dan-dismuke/";
 	phone = "503-953-2152";
-	resume = "https://drive.google.com/file/d/1pv6jqytz1OWVEwQXQORH0jp0jqUcB5Tk/view?usp=sharing";
+	resume = "https://drive.google.com/file/d/1AzAjm9VphO3lLvOKxXozg71cdiG0c8OK/view?usp=sharing";
 	
 	render() {
 		return (
